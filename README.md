@@ -1,3 +1,36 @@
+# Práctica inicial de React
+
+## Integrantes 
+
+- **Gutierrez Calero Sugey**
+- **Rivera López Thalia Yazmin**
+
+## Versiones 
+
+- **Node.js:** v24.21.0
+- **npm:** 11.19.0
+
+## Instalación
+
+## Ejecución
+
+## Estructura
+
+## Desiciones principales
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
