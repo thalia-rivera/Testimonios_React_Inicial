@@ -118,7 +118,7 @@ Para las pruebas, al llegar a la etapa 10 ya teniamos agregados los 8 registros.
 | A03 Acción manual | Anterior, Siguiente o Aleatorio cambian la tarjeta y dejan pausada la reproducción. | Si, con estos 3 botones la tarjeta se queda pausada y cumplen correctamente con su función | Aprobado | No se realizaron correciones | 
 | A04 Reanudación | Reanudar permite nuevos avances; repetir varias veces sin aceleración. | Si ejecuto la accion de reanudar y pausar varias veces sigue funcionando igual, el tiempo sigue estando en aprox 5 segundos en el intervalo | Aprobada | Sin coorreciones |
 | A05 Límites | Durante autoplay, el último vuelve al primero. | Despues del testimonio 8 de 8, regresa al 1 de 8 correctamente | Aprobada | Sin correciones |
-| A06 Pocos datos | Con cero o un registro no se crea un intervalo. |
+| A06 Pocos datos | Con cero o un registro no se crea un intervalo. | Con cero testimonios en el arreglo no se muestran ni los botones, solo un mensaje de que no hay testimonios disponibles. Con un solo registro la tarjeta es estática o no aparece el botón reanudar, no hay intervalos. | Aprobada | No hubo correciones |
 | A07 Limpieza | Revisar el return del efecto y comprobar que no aparecen intervalos acumulados al alternar pausa y reproducción. | Ejecutamos las acciones d elos botones repetidamente y confirmamos que el intervalo de tiempo seguia siendo 5 segundos entre cada testimonio | Aprobado | Sin correcciones |
 
 
