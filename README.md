@@ -52,6 +52,8 @@ npm install
 
 
 ## Estructura
+
+```
 Testimonios_React_Inicial/
 ├── docs/
 │   └── reflexion-reutilizacion.md   Reflexión individual de la práctica
@@ -69,11 +71,12 @@ Testimonios_React_Inicial/
 │   └── styles.css                   Estilos de la aplicación
 ├── .gitignore                       Archivos que Git ignora (node_modules, dist)
 ├── eslint.config.js                 Configuración del análisis de código
-├── index.html                       Contiene el elemento <div id="root">
+├── index.html                       Contiene el elemento con id "root"
 ├── package.json                     Dependencias y comandos
 ├── package-lock.json                Versiones exactas de las dependencias
 ├── vite.config.js                   Configuración de Vite
 └── README.md                        Documentación del proyecto
+```
 
 
 ## Desiciones principales
