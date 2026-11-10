@@ -35,4 +35,4 @@ HTML, CSS y JavaScript sin necesitar nada de eso.
 ## 5. Parte que todavía no comprendo y pregunta concreta
 Todavía no me queda claro cuándo conviene usar `useRef` en lugar de guardar el
 identificador del intervalo dentro del `useEffect`. Mi pregunta es: ¿en qué
-casos reales una variable local del efecto ya no basta y se necesita `useRef`?
+casos reales una variable local del efecto ya no basta y se necesita `useRef`?                                                                                                                                                                                                                            
