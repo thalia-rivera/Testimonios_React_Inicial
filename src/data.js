@@ -8,7 +8,7 @@ const testimonios = [
   { id: 3, nombre: 'María López', cargo: 'Diseño',
     texto: 'La interfaz es sencilla y fácil de utilizar.',
     foto: 'https://i.pravatar.cc/150?img=45' },
-  { id: 4, nombre: 'Carlos Ramírez', cargo: 'Soporte técnico',
+ { id: 4, nombre: 'Carlos Ramírez', cargo: 'Soporte técnico',
     texto: 'Resolvemos incidencias más rápido gracias a la plataforma.',
     foto: 'https://i.pravatar.cc/150?img=15' },
   { id: 5, nombre: 'Sofía Hernández', cargo: 'Marketing',
@@ -23,6 +23,7 @@ const testimonios = [
   { id: 8, nombre: 'Miguel Ángel Ruiz', cargo: 'Operaciones',
     texto: 'Es una solución confiable que nos ahorra tiempo cada semana.',
     foto: 'https://i.pravatar.cc/150?img=68' }
+
 ];
 
 export default testimonios;
