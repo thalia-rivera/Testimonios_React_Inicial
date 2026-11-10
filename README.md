@@ -12,9 +12,68 @@
 
 ## Instalación
 
+### Requisitos
+
+- Node.js (versión LTS compatible con Vite): `<resultado de node -v>`
+- npm: `<resultado de npm -v>`
+- Git y un editor como VS Code
+
+### Pasos
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/thalia-rivera/Testimonios_React_Inicial.git
+cd Testimonios_React_Inicial
+```
+
+2. Cambiar a la rama de desarrollo:
+
+```bash
+git checkout develop
+git pull
+```
+
+3. Instalar las dependencias:
+
+```bash
+npm install
+```
+
+`node_modules` no se incluye en el repositorio, por eso este paso se repite en cada clon.
+
 ## Ejecución
 
+| Comando | Resultado |
+|---|---|
+| `npm run dev` | Inicia el servidor de desarrollo. Abrir la dirección **Local** que muestre la terminal (normalmente `http://localhost:5173/`). |
+| `npm run build` | Genera la versión de producción en `dist`. |
+| `npm run preview` | Permite revisar localmente la compilación. No publica el sitio. |
+
+
 ## Estructura
+Testimonios_React_Inicial/
+├── docs/
+│   └── reflexion-reutilizacion.md   Reflexión individual de la práctica
+├── public/
+│   ├── favicon.svg                  Icono de la pestaña
+│   └── icons.svg                    Iconos de la plantilla de Vite
+├── src/
+│   ├── assets/                      Recursos de la plantilla (hero.png, react.svg, vite.svg)
+│   ├── components/
+│   │   ├── Testimonial.jsx          Tarjeta que presenta un testimonio
+│   │   └── Controls.jsx             Botones Anterior, Siguiente y Aleatorio
+│   ├── App.jsx                      Estado, navegación y reproducción automática
+│   ├── main.jsx                     Monta React en #root e importa styles.css
+│   ├── data.js                      Arreglo con los testimonios
+│   └── styles.css                   Estilos de la aplicación
+├── .gitignore                       Archivos que Git ignora (node_modules, dist)
+├── eslint.config.js                 Configuración del análisis de código
+├── index.html                       Contiene el elemento <div id="root">
+├── package.json                     Dependencias y comandos
+├── package-lock.json                Versiones exactas de las dependencias
+├── vite.config.js                   Configuración de Vite
+└── README.md                        Documentación del proyecto
 
 
 ## Desiciones principales
